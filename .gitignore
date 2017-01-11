@@ -1,4 +1,5 @@
 bin
+.bin
 obj
 fadm.sln.ide
 packages

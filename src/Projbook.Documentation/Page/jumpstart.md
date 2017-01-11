@@ -3,6 +3,8 @@ You can install Projbook to any project but we recommand creating a dedicated do
 
 First of all, install [Projbook](https://www.nuget.org/packages/Projbook) using nuget in the project you want the documentation generated from. Alternatively, you can install [Projbook.Core](https://www.nuget.org/packages/Projbook.Core) if you don't have any PDF needs.
 
+``` javascript[../../../../FrontEnd/mspcomplete-app/app/app.js]
+
 It will create a default configuration `projbook.json` from where you can configure your documentation project, define your templates and your page content:
 ```fs[../Projbook.Example] projbook.json
 ```
